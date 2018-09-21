@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Lab1</string>
-    <string name="hello_message">welcome</string>
+    <string name="app_name">Lab2</string>
+    <string name="hello_message">Welcome</string>
+    <string name="login">Login</string>
+    <string name="login_name">Login</string>
+    <string name="password">Password</string>
+    <string name="pass"></string>
     <string name="ButtonText">i am a button</string>
 </resources>
