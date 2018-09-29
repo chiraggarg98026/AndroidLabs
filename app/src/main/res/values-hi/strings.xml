@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Lab2</string>
-    <string name="hello_message">Welcome</string>
+    <string name="app_name">Lab3</string>
+    <string name="hello_message">NAmaste</string>
     <string name="login">Login</string>
-    <string name="login_name">Login</string>
-    <string name="password">Password</string>
+    <string name="login_name">Login </string>
+    <string name="password">Passcode</string>
     <string name="pass"></string>
     <string name="ButtonText">i am a button</string>
+    <string name="radiobutton">RadioButton</string>
+    <string name="CheckBox">CheckBox</string>
+    <string name="Button"> login button</string>
+    <string name="Switch">what i am doing?</string>
+    <string name="dialog_message">Are you sure to exit this activity</string>
+    <string name="dialog_title">Finish</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
 </resources>
