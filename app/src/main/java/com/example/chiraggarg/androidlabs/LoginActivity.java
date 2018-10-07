@@ -23,7 +23,7 @@ public class LoginActivity extends Activity {
         setContentView(R.layout.activity_login);
 
         sharedPref = getSharedPreferences("AndroidLabsPref", Context.MODE_PRIVATE);
-        String defaultEmail = sharedPref.getString("DefaultMail", "Manpreet@domain.com");
+        String defaultEmail = sharedPref.getString("DefaultMail", "Chirag@domain.com");
 
         loginEditText = findViewById(R.id.editText);
         loginEditText.setText(defaultEmail);
@@ -44,6 +44,7 @@ public class LoginActivity extends Activity {
             }
         });
     }
+
     protected void OnResume(){
         super.onResume();
        Log.i(ACTIVITY_NAME,"In onResume()");

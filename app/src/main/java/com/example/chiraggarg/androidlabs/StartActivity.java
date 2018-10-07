@@ -11,9 +11,9 @@ import android.widget.Toast;
 public class StartActivity extends Activity {
     private static final String ACTIVITY_NAME = "LoginActivity";
     private Button button;
-    private Button button1;
-    private int requestCode;
 
+    private int requestCode;
+ private  Button button3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,7 +28,16 @@ public class StartActivity extends Activity {
 
             }
         });
-   }
+        button3= (Button) findViewById(R.id.button3);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent secondIntent = new Intent(StartActivity.this, ChatWindow.class);
+                startActivityForResult(secondIntent,50);
+                Log.i(ACTIVITY_NAME, "user clicked Start chat" );
+            }
+        });
+        }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -44,34 +53,33 @@ public class StartActivity extends Activity {
 
     }
 
-    protected void OnResume(Bundle savedInstance) {
+    @Override
+    protected void onResume() {
         super.onResume();
         Log.i(ACTIVITY_NAME, "In onResume()");
     }
-
-    protected void onStart(Bundle savedInstance) {
+       @Override
+    protected void onStart() {
         super.onStart();
         Log.i(ACTIVITY_NAME, "In onStart()");
     }
-
-    protected void onPause(Bundle savedInstance) {
+@Override
+    protected void onPause() {
         super.onPause();
         Log.i(ACTIVITY_NAME, "In onPause()");
 
     }
-
-    protected void onStop(Bundle savedInstance) {
+@Override
+    protected void onStop() {
         super.onStop();
         Log.i(ACTIVITY_NAME, "In onStop()");
 
     }
-
-    protected void onDestroy(Bundle savedInstance) {
+@Override
+    protected void onDestroy() {
         super.onDestroy();
         Log.i(ACTIVITY_NAME, "In onDestroy()");
     }
-
-
 
 
 
