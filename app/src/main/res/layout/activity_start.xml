@@ -29,5 +29,13 @@
         android:layout_height="wrap_content"
         android:text="@string/StartChat" />
 
+<Button
+    android:id="@+id/WeatherButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/Weather"
+    android:layout_marginBottom="@dimen/default_gap"/>
+
+
 
 </LinearLayout>

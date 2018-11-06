@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Lab4</string>
-    <string name="hello_message">Namaste</string>
-    <string name="login">Loginbu</string>
-    <string name="login_name">Login </string>
-    <string name="password">Passcode</string>
+    <string name="app_name">लब्ब६ </string>
+    <string name="hello_message">नमस्ते  </string>
+    <string name="login">लॉगिन da </string>
+    <string name="login_name">लॉगिन   </string>
+    <string name="password"> सकदे</string>
     <string name="pass"></string>
-    <string name="ButtonText">it is a button</string>
-    <string name="radiobutton">RadioButton</string>
-    <string name="CheckBox">CheckBox</string>
-    <string name="Button"> login bb</string>
-    <string name="Switch">what switch do</string>
-    <string name="dialog_message">Are you sure to quit this activity</string>
-    <string name="dialog_title">The end</string>
-    <string name="ok">OK</string>
-    <string name="cancel">Cancel</string>
-    <string name ="StartChat">Start Chat</string>
-    <string name="sendButton">Send</string>
-    <string name="EditText1">write Something</string>
-    <string name="TextView">New TExt</string>
-    <string name="textview1">TEzxt View</string>
-    <string name="ImageView1">Nava text</string>
-    <string name="ImageView2">purana Text2</string>
+    <string name="ButtonText">आईटी  इस  ा  बटन  </string>
+    <string name="radiobutton">रदियबूटों </string>
+    <string name="CheckBox">चेकबॉक्स </string>
+    <string name="Button"> लॉगिन  बी </string>
+    <string name="Switch">व्हाट  स्विच  दो  </string>
+    <string name="dialog_message">अरे  यू  सूरे  तो  क्विट  थिस  एक्टिविटी </string>
+    <string name="dialog_title">थे  एन्ड </string>
+    <string name="ok">ओके  </string>
+    <string name="cancel">कैंसिल</string>
+    <string name ="StartChat">स्टार्टचाट </string>
+    <string name="sendButton">सेंड  </string>
+    <string name="EditText1">व्रिठे  समथिंग </string>
+    <string name="TextView">नई  टेक्स्ट </string>
+    <string name="textview1">टेक्स्ट  व्यू </string>
+    <string name="ImageView1">नवा  टेक्स्ट </string>
+    <string name="ImageView2">पुराण  टेक्सट२ </string>
+    <string name="Image">इमेज  व्यू </string>
+    <string name="current">करंट  टेम्परेचर  </string>
+    <string name="min">मं  टेम्परेचर  </string>
+    <string name="max">मैक्स  टेम्परेचर</string>
+    <string name="wind">विंड  स्पीड</string>
+    <string name="Weather">वेअथेर  रिपोर्ट  </string>
 
 </resources>
